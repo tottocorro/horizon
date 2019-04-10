@@ -6,7 +6,7 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Illuminate\Console\Command;
 use Laravel\Horizon\MasterSupervisor;
-use Illuminate\Support\InteractsWithTime;
+use Illuminate\Queue\InteractsWithTime;
 use Illuminate\Contracts\Cache\Factory as CacheFactory;
 use Laravel\Horizon\Contracts\MasterSupervisorRepository;
 
